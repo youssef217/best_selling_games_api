@@ -1,5 +1,5 @@
-from flask import Flask
 from app.queries import query_all_games, query_game_by_id, query_game_by_developer
+from flask import Flask
 
 
 app = Flask(__name__)
